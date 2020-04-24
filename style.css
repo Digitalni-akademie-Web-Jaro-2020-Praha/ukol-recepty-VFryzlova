@@ -48,8 +48,8 @@ h1{
   text-align: left;
   margin: 0;
   font-size: 28px;
+  text-shadow: 1px 1px 1px black;
 }
-
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -62,6 +62,8 @@ h1{
   justify-content: space-between;
   min-height: 90px;
   background-color: tomato;
+  background-position: center;
+  background-size: cover;
 }
 
 .kategorie{
@@ -77,7 +79,6 @@ h1{
 .male-wrapper .recepty{
   border-top: 1px solid white;
 }
-
 .male-wrapper h1{
   margin: 0;
   font-size: 18px;
