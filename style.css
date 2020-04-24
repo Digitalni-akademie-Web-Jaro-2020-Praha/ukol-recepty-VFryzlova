@@ -44,15 +44,23 @@ body {
 /* ------------------------------- */
 h1{
   font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin: 0;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-
 .recepty {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nadpis{
+  
 }
 .kategorie{
  float: left;
@@ -65,12 +73,13 @@ h1{
   display: flex;
   flex-direction: column;
 }
-.male.recepty{
+.male-wrapper{
   min-height: 90px;
   background-color: tomato;
 }
-.male.recepty h1{
+.male-wrapper h1{
   color: white;
+  margin: 0;
 }
 .velke{
   min-height: 200px;
