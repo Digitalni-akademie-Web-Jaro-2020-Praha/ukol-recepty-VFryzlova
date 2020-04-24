@@ -63,19 +63,19 @@ h1{
   min-height: 90px;
   background-color: tomato;
 }
-.nadpis{
-  
-}
+
 .kategorie{
  float: left;
 }
 .komentare{
  float: right;
 }
-
-.male {
+.male-wrapper{
   display: flex;
   flex-direction: column;
+}
+.male-wrapper .recepty{
+  border-top: 1px solid white;
 }
 
 .male-wrapper h1{
