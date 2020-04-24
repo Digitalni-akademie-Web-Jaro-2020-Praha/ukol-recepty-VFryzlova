@@ -25,6 +25,7 @@ notebook/pc:
 body {
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
+  color: white;
 }
 
 .paticka {
@@ -46,6 +47,7 @@ h1{
   font-family: 'Raleway', sans-serif;
   text-align: left;
   margin: 0;
+  font-size: 28px;
 }
 
 .wrapper {
@@ -58,6 +60,8 @@ h1{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 90px;
+  background-color: tomato;
 }
 .nadpis{
   
@@ -73,18 +77,12 @@ h1{
   display: flex;
   flex-direction: column;
 }
-.male-wrapper{
-  min-height: 90px;
-  background-color: tomato;
-}
+
 .male-wrapper h1{
-  color: white;
   margin: 0;
+  font-size: 18px;
 }
 .velke{
   min-height: 200px;
   background-color: teal;
-}
-.velke.recepty h1{
-  color: red;
 }
