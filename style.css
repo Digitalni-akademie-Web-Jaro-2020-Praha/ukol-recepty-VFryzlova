@@ -42,24 +42,40 @@ body {
 /* ----- DOLE BUDE TVOJE CSS ----- */
 
 /* ------------------------------- */
-
+h1{
+  font-family: 'Raleway', sans-serif;
+}
 .wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.recepty {}
+.recepty {
+  padding: 10px;
+}
+.kategorie{
+ float: left;
+}
+.komentare{
+ float: right;
+}
 
 .male {
   display: flex;
   flex-direction: column;
 }
-.male .recepty{
+.male.recepty{
   min-height: 90px;
   background-color: tomato;
+}
+.male.recepty h1{
+  color: white;
 }
 .velke{
   min-height: 200px;
   background-color: teal;
+}
+.velke.recepty h1{
+  color: red;
 }
